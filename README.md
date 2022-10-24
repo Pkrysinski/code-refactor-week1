@@ -40,6 +40,8 @@ THEN I find semantic HTML elements.
 
 WHEN I view the structure of the HTML elements.
 THEN I find that the elements follow a logical structure independent of styling and positioning.
+    -Structure of HTML elements have been organized to follow industry standards with correct HTML, Head, and Body tags with
+    appropriate content matter inside of each, nested (hopefully) properly to also abide by industry standards.
 
 WHEN I view the icon and image elements.
 THEN I find accessible alt attributes.
