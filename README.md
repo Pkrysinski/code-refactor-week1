@@ -1,7 +1,21 @@
 # code-refactor-week1
 Week 1 02-Challenge
 
-##CSS (extra) Changes so far...
+## Link to Deployed Application...
+https://pkrysinski.github.io/code-refactor-week1/
+
+(can also be visited by reviewing the screenshot at the bottom of this page)
+
+## Overview of the Challenge
+-We've been given a sample webpage with redundant features, ambiguous div tags, and broken links.  Our goal is to
+clean up the CSS, correct the issues in the HTML, and make sure the website is deployed appropriately.  Through
+various iterations of code modifications and commits to the repository, I hope you can see the progress made along
+the way to ultimately land at the cleanest version we can imagine of the website up until this point in class.  I'm
+sure it can be done better, but ultimately I wanted to treat it like a campsite - leave it better than when we found
+it.  Below are just some of the changes done, and validation of all acceptence criteria with rationale explaining
+each change, and how I went about resolving it.  I hope you enjoy!
+
+## CSS (extra) Changes so far...
 
 Problem:
 -The "Search Engine Optimization" interactive text/button in the header does not take you to the associated SEO 
@@ -68,7 +82,8 @@ WHEN I view the title element.
 THEN I find a concise, descriptive title.
     -Changing title from "website" to "© Horiseaon"
 
-## Link to Deployed Application...
-https://pkrysinski.github.io/code-refactor-week1/
-
 ```
+
+<div align="left">
+    <img src="./assets/images/GitHub-project-screenshot.png" width="800px"</img> 
+</div>
