@@ -24,6 +24,7 @@ Solution:
 GIVEN a webpage meets accessibility standards
 WHEN I view the source code.
 THEN I find semantic HTML elements.
+    -There are a lot of generic div tags in the HTML that if left alone, can be a little ambiguous from both an accessibility standpoint and what the general purpose of the element is.  For example, the header tag is currently a generic "div" tag.  As is the footer.  So we've replaced those with <header> and <footer> respectively. Also within the main body, we've got sections, which we've renamed from <div> to <section>, so make more sense to whomever is interpreting the website.  The right-float "benefits" section is also more of an aside than just a section like the rest, so we'll name that accordingly.
 
 WHEN I view the structure of the HTML elements.
 THEN I find that the elements follow a logical structure independent of styling and positioning.
