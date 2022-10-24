@@ -1,13 +1,16 @@
+/* These are global properties that all elements of the HTML are going to follow */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Body tags first */
 body {
     background-color: #d9dcd6;
 }
 
+/* Within the body, first we've got a header followed by child element tags and associated specifications */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -34,6 +37,7 @@ h3 {
     text-align: center;    
 }
 
+/* Technically the 3 button elements are all part of internal page navigation, so we've changed the HTML and CSS to match <nav> tags here */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -51,6 +55,7 @@ h3 {
     margin-left: 25px;
 }
 
+/* The following tag/CSS associations are used globally throughout the page */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -79,6 +84,8 @@ p {
     margin-left: 25px;
 }
 
+
+/* These are the parent and ancestor elements of the "benefits" aside vertical contentent section on the right side of the page */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -101,6 +108,8 @@ p {
     max-width: 150px;
 }
 
+
+/* These are the parent and ancestor elements of the central "contents" section of the webpage */
 .contents {
     width: 75%;
     display: inline-block;
@@ -120,6 +129,7 @@ p {
     max-height: 200px;
 }
 
+/* Lastly we've got our footer elements and CSS assigned to each */
 .footer {
     padding: 30px;
     clear: both;

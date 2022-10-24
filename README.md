@@ -1,7 +1,7 @@
 # code-refactor-week1
 Week 1 02-Challenge
 
-##CSS (extra) Changes so far
+##CSS (extra) Changes so far...
 
 Problem:
 -The "Search Engine Optimization" interactive text/button in the header does not take you to the associated SEO 
@@ -11,11 +11,13 @@ The Solution:
 divs for information on the 3 content buttons in the header.  The 2 buttons that work have "id"s associated with them, 
 so we need to add the appropriate id to the SEO button (in html) too.
 
+
 Problem:
 -The CSS file is not organized at all by page layout and area of interest in which the code is written for.  
 Solution:
 -I'm organizing it as best I can first in order of how they relate to things on the page (header classes + ID's 
 up top, body in the middle, and footer towards the bottom) as best as I can.
+
 
 Problem:
 -The CSS file as a ton of redundant code which can definitely be consolodated.  The three classes in there for 
