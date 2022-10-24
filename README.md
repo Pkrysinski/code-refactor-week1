@@ -4,7 +4,10 @@ Week 1 02-Challenge
 ## Link to Deployed Application...
 https://pkrysinski.github.io/code-refactor-week1/
 
-(can also be visited by reviewing the screenshot at the bottom of this page)
+
+<div align="left">
+    <img src="./assets/images/GitHub-project-screenshot.png" width="800px"</img> 
+</div>
 
 ## Overview of the Challenge
 -We've been given a sample webpage with redundant features, ambiguous div tags, and broken links.  Our goal is to
@@ -83,7 +86,3 @@ THEN I find a concise, descriptive title.
     -Changing title from "website" to "© Horiseaon"
 
 ```
-
-<div align="left">
-    <img src="./assets/images/GitHub-project-screenshot.png" width="800px"</img> 
-</div>
