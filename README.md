@@ -5,7 +5,7 @@ Week 1 02-Challenge
 https://pkrysinski.github.io/code-refactor-week1/
 
 
-![Alt text](./assets/images/GitHub-project-screenshot.png?raw=true)
+![Alt text](https://github.com/Pkrysinski/code-refactor-week1/blob/main/assets/images/GitHub-project-screenshot.PNG)
 
 ## Overview of the Challenge
 -We've been given a sample webpage with redundant features, ambiguous div tags, and broken links.  Our goal is to
